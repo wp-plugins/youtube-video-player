@@ -4,7 +4,7 @@ Donate link: http://wpdevart.com/wordpress-youtube-embed-plugin
 Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, embed youtube, youtube shortcode, YouTube API, video plugin, youtube for WordPress, YouTube White Label
 Requires at least: 3.4.0
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -111,15 +111,16 @@ We also recommend you to take a look for this useful plugins - [WordPress Mainte
 3.  **WordPress YouTube Embed** Back-end   
 4.  **WordPress YouTube Embed** Front-end     
 5.  **WordPress YouTube Embed** Front-end     
-7.  **WordPress YouTube Embed** Front-end     
-8.  **WordPress YouTube Embed** Front-end
-9.  **WordPress YouTube Embed** Front-end
 
 == Changelog ==
 
 = 1.0.0 =
 
 *  Initial version.
+
+= 1.0.1 =
+
+*  SVN problem fixed.
 
 == Other Notes ==
 

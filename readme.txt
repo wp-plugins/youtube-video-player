@@ -78,7 +78,7 @@ We also recommend you to take a look for this useful plugins - [WordPress Mainte
 
 Our WordPress YouTube Embed plugin is user friendly, but here are some frequently asked questions that can help you.
 
-= How can add YouTube video in free Version =
+= How to add YouTube video in free Version =
 
 Go to your administration panel, click on the "YouTube Embed" plugin icon from your admin panel.
 On YouTube Embed Page/post default Settings page you can set default options for your videos in pages and posts.
@@ -87,7 +87,7 @@ On YouTube Embed Widget default Settings page you can set default options for yo
 After you set the options for pages/posts and widgets you just need to click on "Add Youtube Video" shortcode button, 
 type only the video URL(other options are disabled in free version) and click on Insert video. 
  
-= How can add YouTube video in Pro Version =
+= How to add YouTube video in Pro Version =
 
 Go to your administration panel, click on the "YouTube Embed" plugin icon from your admin panel.
 On YouTube Embed Page/post default Settings page you can set default options for your videos in pages and posts.
@@ -96,7 +96,7 @@ On YouTube Embed Widget default Settings page you can set default options for yo
 After that you just need to click on "Add Youtube Video" shortcode button(from your posts/psges editor) and set options for your video.
 Then click Insert video. 
 
-= How can add YouTube playlist =
+= How to add YouTube playlist =
 
 Go to your post/page where you want to add YouTube playlist.
 Click on "Add Youtube Video" shortcode button.

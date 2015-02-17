@@ -24,10 +24,10 @@ class youtube_embed_content_default{
 		 $initial_values= array( 
 			"youtube_embed_width"  				=> "640",
 			"youtube_embed_height"  				=> "385",
-			"youtube_embed_autoplay"  			=> "0",		
+			"youtube_embed_autoplay"  			=> "0",			
 			"youtube_embed_loop_video"  			=> "0",
 			"youtube_embed_enable_fullscreen"  	=> "1",
-			"youtube_embed_show_popup"  			=> "0",
+			"youtube_embed_show_popup"  			=> "0",			
 			"youtube_embed_show_title"  			=> "1",
 			"youtube_embed_show_youtube_icon"  	=> "1",
 			"youtube_embed_show_annotations"  	=> "1",
@@ -72,7 +72,7 @@ class youtube_embed_content_default{
         $initial_values= array( 
 		"youtube_embed_width"  				=> "640",
 		"youtube_embed_height"  				=> "385",
-		"youtube_embed_autoplay"  			=> "0",		
+		"youtube_embed_autoplay"  			=> "0",			
 		"youtube_embed_loop_video"  			=> "0",
 		"youtube_embed_enable_fullscreen"  	=> "1",
 		"youtube_embed_show_popup"  			=> "0",			
@@ -167,7 +167,18 @@ class youtube_embed_content_default{
                         <label><input type="radio" name="youtube_embed_enable_fullscreen_radio" <?php checked($youtube_embed_enable_fullscreen,'0') ?> value="0">Hide</label>
                          <input type="hidden" name="youtube_embed_enable_fullscreen" id="youtube_embed_enable_fullscreen" value="<?php echo $youtube_embed_enable_fullscreen; ?>">
                     </td>
- 				</tr> 
+ 				</tr>
+                <tr>                     
+                	<td>     
+                    	Show/Hide related videos:<span class="pro_subtitle_span">Pro feature!</span> <span title="Set this option if you want to not show Related Videos after the Youtube video ends." class="desription_class">?</span>
+                    </td>
+                    <td class="radio_input">     
+                    	<label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_realted_radios" name="youtube_embed_show_realted_radios" checked="checked" value="1" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Show</label>
+                        <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_realted_radios" name="youtube_embed_show_realted_radios" value="0" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Hide</label>
+                         <input type="hidden" name="youtube_embed_show_realted" id="youtube_embed_show_realted" value="<?php echo $youtube_embed_show_realted; ?>">
+                    </td>
+                    
+                </tr>  
                 <tr>                     
                 	<td>     
                     	Show video in popup:<span class="pro_subtitle_span">Pro feature!</span> <span title="Set this option if you want to display YouTube videos in popup" class="desription_class">?</span>
@@ -178,8 +189,7 @@ class youtube_embed_content_default{
                          <input type="hidden" name="youtube_embed_show_popup" id="youtube_embed_show_popup" value="<?php echo $youtube_embed_show_popup; ?>">
                     </td>
                     
-                </tr> 
-                
+                </tr>                  
                 <tr>
                     <td>     
                     	Show information: <span title="Set this option if you want to display YouTube videos information" class="desription_class">?</span>

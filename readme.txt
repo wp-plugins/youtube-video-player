@@ -8,7 +8,7 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-WordPress YouTube EYouTube Embed plugin is an convenient tool for adding video to your website. 
+YouTube Embed plugin is an convenient tool for adding video to your website. 
 Use YouTube Embed plugin to add YouTube videos in posts/pages, widgets. YouTube Embed plugin have user-friendly and simple admin panel, so you can insert YouTube videos very easily and quickly.
 
 == Description ==
@@ -121,6 +121,10 @@ We also recommend you to take a look for this useful plugins - [WordPress Mainte
 = 1.0.1 =
 
 *  SVN problem fixed.
+
+= 1.0.2 =
+
+*  Added Show/Hide related vidoes function.
 
 == Other Notes ==
 

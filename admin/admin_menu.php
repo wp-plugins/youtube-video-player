@@ -74,13 +74,11 @@ class youtube_admin_menu{
         $initial_values= array( 
 			"youtube_embed_width"  				=> "640",
 			"youtube_embed_height"  				=> "385",
-			"youtube_embed_autoplay"  			=> "0",
-			"youtube_embed_theme"  				=> "dark",
+			"youtube_embed_autoplay"  			=> "0",			
 			"youtube_embed_loop_video"  			=> "0",
 			"youtube_embed_enable_fullscreen"  	=> "1",
-			"youtube_embed_show_popup"  			=> "0",		
-				"youtube_embed_thumb_popup_width"  	=> "213",
-				"youtube_embed_thumb_popup_height"  	=> "128",		
+			"youtube_embed_show_realted"  			=> "0",	
+			"youtube_embed_show_popup"  			=> "0",			
 			"youtube_embed_show_title"  			=> "1",
 			"youtube_embed_show_youtube_icon"  	=> "1",
 			"youtube_embed_show_annotations"  	=> "1",
@@ -189,7 +187,18 @@ class youtube_admin_menu{
                         <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" name="youtube_embed_enable_fullscreen_radio" <?php checked($youtube_embed_enable_fullscreen,'0') ?> value="0" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Hide</label>
                          <input type="hidden" name="youtube_embed_enable_fullscreen" id="youtube_embed_enable_fullscreen" value="<?php echo $youtube_embed_enable_fullscreen; ?>">
                     </td>
- 				</tr> 
+ 				</tr>
+                <tr>                     
+                	<td>     
+                    	Show/Hide related videos:<span class="pro_subtitle_span">Pro feature!</span>
+                    </td>
+                    <td class="radio_input">     
+                    	<label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_realted_radios" name="youtube_embed_show_realted_radios" checked="checked" value="1" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Show</label>
+                        <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_realted_radios" name="youtube_embed_show_realted_radios"  value="0" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Hide</label>
+                         <input type="hidden" name="youtube_embed_show_realted" id="youtube_embed_show_realted" value="<?php echo $youtube_embed_show_realted; ?>">
+                    </td>
+                    
+                </tr>  
                 <tr>                     
                 	<td>     
                     	Show video in popup: <span class="pro_subtitle_span">Pro feature!</span>

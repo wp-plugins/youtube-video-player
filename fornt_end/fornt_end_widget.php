@@ -216,17 +216,28 @@ class youtube_embed_widget extends WP_Widget {
  				</tr> 
                 <tr>                     
                 	<td>     
+                    	Show/Hide related videos: <span class="pro_subtitle_span">Pro feature!</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="radio_input">     
+                    	<label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"  type="radio" checked="checked" value="1">Show</label>
+                        <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"  type="radio" value="0">Hide</label>
+                    </td>
+                    
+                </tr>
+                <tr>                     
+                	<td>     
                     	Show video in popup: <span class="pro_subtitle_span">Pro feature!</span>
                     </td>
                 </tr>
                 <tr>
                     <td class="radio_input">     
-                    	<label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"  type="radio" class="<?php echo $this->get_field_id('youtube_embed_widget_show_popup') ?>show_in_popup_radios" name="<?php echo $this->get_field_name('youtube_embed_widget_show_popup') ?>" <?php checked($instance['youtube_embed_widget_show_popup'],'1') ?> value="1">Yes</label>
-                        <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"  type="radio" class="<?php echo $this->get_field_id('youtube_embed_widget_show_popup') ?>show_in_popup_radios" name="<?php echo $this->get_field_name('youtube_embed_widget_show_popup') ?>" <?php checked($instance['youtube_embed_widget_show_popup'],'0') ?> value="0">No</label>
+                    	<label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"  type="radio" class="<?php echo $this->get_field_id('youtube_embed_widget_show_popup') ?>show_in_popup_radios" name="<?php echo $this->get_field_name('youtube_embed_widget_show_popup') ?>"  value="1">Yes</label>
+                        <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"  type="radio" class="<?php echo $this->get_field_id('youtube_embed_widget_show_popup') ?>show_in_popup_radios" name="<?php echo $this->get_field_name('youtube_embed_widget_show_popup') ?>"  checked="checked" value="0">No</label>
                     </td>
                     
-                </tr> 
-                
+                </tr>                 
                 <tr>
                     <td>     
                     	Show information:<span class="pro_subtitle_span">Pro feature!</span>

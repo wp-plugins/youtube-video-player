@@ -4,7 +4,7 @@ Donate link: http://wpdevart.com/wordpress-youtube-embed-plugin
 Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, YouTube API, youtube Video Player, smart youtube playback, embedplus youtube, wordpress youtube, youtube post, lightbox youtube, youtube button, lite youtube embeds, youtube thumbs, youtube wordpress, youtube posts, embed youtube videos, youtube for WordPress, youtube galleries, youtube icon, YouTube Sidebar, youtube embed hide controls, video plugin, YouTube White Label, embed video, video player, video embed, videos
 Requires at least: 3.4.0
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

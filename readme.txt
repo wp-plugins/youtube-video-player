@@ -1,7 +1,7 @@
 === YouTube Embed ===
 Contributors: wpdevart
 Donate link: http://wpdevart.com/wordpress-youtube-embed-plugin
-Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, wordpress youtube, lightbox youtube, youtube thumbs, youtube wordpress, embed youtube videos, youtube for WordPress, youtube icon, youtube embed hide controls, YouTube White Label,
+Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, wordpress youtube, lightbox youtube
 Requires at least: 3.4.0
 Tested up to: 4.1
 Stable tag: 1.0.3
@@ -103,6 +103,20 @@ Go to your post/page where you want to add YouTube playlist.
 Click on "Add Youtube Video" shortcode button.
 Type the Video Id and Playlist Id. for example if you want to add this playlist https://www.youtube.com/watch?v=0XFudmaObLI&list=RD0XFudmaObLI#t=1, then you need to type 0XFudmaObLI in Video Id field and type RD0XFudmaObLI#t=1 in Playlist Id field.
 
+= How to add YouTube video to widget =
+
+Go to your administration panel, click on the "YouTube Embed" plugin icon from your admin panel and check "Widget defaults" page.
+On YouTube Embed Widget default Settings page you can set default options for your videos in widgets.
+After that add YouTube embed widget to your sidebars, then type YouTube video url and that's all.
+
+= Can I use autoplay function for my YouTube videos =
+
+Of course, you just need to enable that function.
+
+= What mean "Initial Volume" =
+
+Initial Volume is the default volume for your YouTube videos.
+
 We also recommend you to take a look for this useful plugins - [WordPress Maintenance mode](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](https://wordpress.org/plugins/like-box/),  [WordPress Lightbox](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget) .
 
 == Screenshots ==
@@ -117,19 +131,19 @@ We also recommend you to take a look for this useful plugins - [WordPress Mainte
 
 = 1.0.0 =
 
-*  Initial version.
+*  Initial version of YouTube Embed.
 
 = 1.0.1 =
 
-*  SVN problem fixed.
+*  SVN problem fixed on YouTube Embed.
 
 = 1.0.2 =
 
-*  Bug fixed.
+*  Bug fixed on YouTube Embed.
 
 = 1.0.3 =
 
-*  JS bug fixed.
+*  JS bug fixed on YouTube Embed.
 
 == Other Notes ==
 

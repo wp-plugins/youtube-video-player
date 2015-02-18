@@ -1,10 +1,10 @@
 === YouTube Embed ===
 Contributors: wpdevart
 Donate link: http://wpdevart.com/wordpress-youtube-embed-plugin
-Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, YouTube API, youtube Video Player, smart youtube playback, embedplus youtube, wordpress youtube, youtube post, lightbox youtube, youtube button, lite youtube embeds, youtube thumbs, youtube wordpress, youtube posts, embed youtube videos, youtube for WordPress, youtube galleries, youtube icon, YouTube Sidebar, youtube embed hide controls, video plugin, YouTube White Label, embed video, video player, video embed, videos
+Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, wordpress youtube, lightbox youtube
 Requires at least: 3.4.0
 Tested up to: 4.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -46,6 +46,7 @@ You can upgrade WordPress YouTube Embed plugin to [YouTube Embed Pro](http://wpd
 
 *   **YouTube Posts/pages shortcode button**
 *   **Ability to set individual options for every added YouTube video**
+*   **Show/Hide related videos**
 *   **Ability to display YouTube videos in Popup**
 *   **Ability to set video thumbnail width(for displaying in Popup)**
 *   **Ability to set video thumbnail height(for displaying in Popup)**
@@ -124,7 +125,11 @@ We also recommend you to take a look for this useful plugins - [WordPress Mainte
 
 = 1.0.2 =
 
-*  Added Show/Hide related vidoes function.
+*  Bug fixed.
+
+= 1.0.3 =
+
+*  JS bug fixed.
 
 == Other Notes ==
 
@@ -136,6 +141,7 @@ We also recommend you to take a look for this useful plugins - [WordPress Mainte
 *   Player Theme - Choose YouTube Player Theme.
 *   Loop video - Set this option for repeating YouTube videos.
 *   Show fullscreen button - Set this option if you want to display fullscreen button.   
+*   Show/Hide related videos - Set this option if you want to not show Related Videos after the Youtube video ends.
 *   Show video in popup - Set this option if you want to display YouTube videos in popup.   
 *   Thumbnail width - Set the YouTube video thumbnail width for opening videos in popup .   
 *   Thumbnail height - Set the YouTube video thumbnail height for opening videos in popup.

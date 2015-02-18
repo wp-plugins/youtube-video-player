@@ -1,7 +1,7 @@
 === YouTube Embed ===
 Contributors: wpdevart
 Donate link: http://wpdevart.com/wordpress-youtube-embed-plugin
-Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, wordpress youtube, lightbox youtube
+Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, wordpress youtube, lightbox youtube, youtube thumbs, youtube wordpress, embed youtube videos, youtube for WordPress, youtube icon, youtube embed hide controls, YouTube White Label,
 Requires at least: 3.4.0
 Tested up to: 4.1
 Stable tag: 1.0.3

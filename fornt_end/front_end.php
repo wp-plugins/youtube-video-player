@@ -86,7 +86,7 @@ class youtube_embed_front_end{
 			 	$parametrs['playlist']=$content;
 		 }
 			
-		$link_youtube = 'http://www.youtube.com/embed/'.$content;
+		$link_youtube = '//www.youtube.com/embed/'.$content;
 		$link_youtube = add_query_arg( $parametrs, $link_youtube );
 
 		

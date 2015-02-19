@@ -55,7 +55,7 @@ class youtube_embed_widget extends WP_Widget {
 			 	$parametrs['playlist']=$instance['youtube_embed_widget_video'];
 		 }
 			
-		$link_youtube = 'http://www.youtube.com/embed/'.$instance['youtube_embed_widget_video'];
+		$link_youtube = '//www.youtube.com/embed/'.$instance['youtube_embed_widget_video'];
 		$link_youtube = add_query_arg( $parametrs, $link_youtube );
 
 

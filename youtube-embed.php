@@ -5,6 +5,7 @@
  * Description: WordPress YouTube EYouTube Embed plugin is an convenient tool for adding video to your website. Use YouTube Embed plugin to add YouTube videos in posts/pages, widgets.
  * Version: 1.0.3
  * Author: wpdevart
+ * Author URI:    http://wpdevart.com
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
  

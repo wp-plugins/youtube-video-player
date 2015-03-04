@@ -1,7 +1,7 @@
 === YouTube Embed ===
 Contributors: wpdevart
 Donate link: http://wpdevart.com/wordpress-youtube-embed-plugin
-Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, wordpress youtube, lightbox youtube, video analytics, video widget, import youtube videos, playlist,  view count, playlists, unlock video youtube,lock video youtube, video youtube, YouTube Live Stream, youtube views, youtube usage, youtube subscription box, Youtube Album, YouTube channels, youtube box, youtube status, bulk youtube posts, random youtube video, unlock content youtube, youtube subscribe button,  youtube analytics dashboard, youtube subscribe, youtube video feed, youtube subscribers, channel, youtube audio, YouTube Live, youtube analytics, Youtube channel,
+Tags:   youtube, youtube playlist, youtube gallery, youtube plugin, youtube player, youtube widget, youtube videos, youtube embed, embed youtube, youtube shortcode, wordpress youtube, lightbox youtube
 Requires at least: 3.4.0
 Tested up to: 4.1
 Stable tag: 1.0.3

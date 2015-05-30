@@ -2,8 +2,6 @@
 
 /*############ WIDGET CLASS FOR YOUTUBE ##################*/
 class youtube_embed_widget extends WP_Widget {
-	public $poll_front_end_duble;
-
 	// Constructor //	
 	function __construct() {		
 		$widget_ops = array( 'classname' => 'youtube_embed_widget', 'description' => 'YouTube Embed' ); // Widget Settings
@@ -14,12 +12,11 @@ class youtube_embed_widget extends WP_Widget {
 	/*poll display in front*/
 	function widget($args, $instance) {
 		extract( $args );
-		global $poll_front_end;
 		// Before widget //
 		echo $before_widget;
 		
 		// Title of widget //
-		if ( $title ) { echo $before_title . $title . $after_title; }
+		if ( isset($title) && $title ) { echo $before_title . $title . $after_title; }
 		// Widget output //
 		if(!$instance['youtube_embed_widget_video']){
 		 echo '<span style="color:red; font-size:16px">Set Vidio id</span>';	
@@ -100,6 +97,7 @@ class youtube_embed_widget extends WP_Widget {
 	function form($instance) {
 		global $wpdb;
 		$initial_values= array( 
+			'title'										=>'',
 			"youtube_embed_widget_video"				=>'',
 			"youtube_embed_widget_playlist"				=>'',
 			"youtube_embed_widget_width"  				=> "320",
@@ -186,9 +184,9 @@ class youtube_embed_widget extends WP_Widget {
                 </tr>
                 <tr>
                     <td>     
-                    	<select id="<?php echo $this->get_field_id('youtube_embed_widget_theme'); ?>" name="<?php echo $this->get_field_name('youtube_embed_widget_theme'); ?>" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;" >
-                            <option  value="light"  <?php selected($instance['youtube_embed_widget_theme'],'light') ?>>Light</option>
-                            <option value="dark" <?php selected($instance['youtube_embed_widget_theme'],'dark') ?>>Dark</option>
+                    	<select  onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;" >
+                            <option  value="light">Light</option>
+                            <option value="dark" selected="selected">Dark</option>
                         </select>
                     </td>
                 </tr> 

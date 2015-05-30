@@ -143,8 +143,8 @@ class youtube_embed_content_default{
                     </td>
                     <td>     
                     	<select onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">
-                            <option  value="light"  <?php selected($youtube_embed_theme,'light') ?>>Light</option>
-                            <option value="dark" <?php selected($youtube_embed_theme,'dark') ?>>Dark</option>
+                            <option  value="light">Light</option>
+                            <option value="dark" selected="selected">Dark</option>
                         </select>
                     </td>
                 </tr> 
@@ -175,7 +175,7 @@ class youtube_embed_content_default{
                     <td class="radio_input">     
                     	<label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_realted_radios" name="youtube_embed_show_realted_radios" checked="checked" value="1" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Show</label>
                         <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_realted_radios" name="youtube_embed_show_realted_radios" value="0" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Hide</label>
-                         <input type="hidden" name="youtube_embed_show_realted" id="youtube_embed_show_realted" value="<?php echo $youtube_embed_show_realted; ?>">
+                        
                     </td>
                     
                 </tr>  

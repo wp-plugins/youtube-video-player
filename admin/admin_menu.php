@@ -1,14 +1,12 @@
 <?php 
 
-/*############  Poll Admin Menu Class ################*/
+/*############  Youtube Admin Menu Class ################*/
 require_once($this->plugin_path.'admin/content_default.php');
 require_once($this->plugin_path.'admin/widget_default.php');
 
 class youtube_admin_menu{
 	
 	private $menu_name;	
-		
-	private $databese_parametrs;
 	
 	private $plugin_url;
 	
@@ -25,7 +23,7 @@ class youtube_admin_menu{
 		$this->text_parametrs=array(
 			''=>'',
 		);		
-		$this->databese_parametrs=$param['databese_parametrs']; //databese parametrs
+		
 		$this->content_default_params  =new youtube_embed_content_default( array( 'plugin_url'=> $this->plugin_url, 'plugin_path' => $this->plugin_path));
 		$this->wdiget_default_params =new youtube_embed_widget_default( array( 'plugin_url' => $this->plugin_url, 'plugin_path' => $this->plugin_path));
 		
@@ -58,14 +56,6 @@ class youtube_admin_menu{
 		  return $context;
 	}
 	
-	/// function for registr new button
-	function poll_button_register($plugin_array)
-	{
-		$url = $this->plugin_url.'admin/scripts/editor_plugin.js';
-		$plugin_array["poll_mce"] = $url;
-		return $plugin_array;
-	
-	}
 
 
 	public function window_for_inserting_contentt(){
@@ -163,8 +153,8 @@ class youtube_admin_menu{
                     </td>
                     <td>     
                     	<select id="youtube_embed_theme" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">
-                            <option  value="light"  <?php selected($youtube_embed_theme,'light') ?>>Light</option>
-                            <option value="dark" <?php selected($youtube_embed_theme,'dark') ?>>Dark</option>
+                            <option  value="light">Light</option>
+                            <option value="dark" selected="selected">Dark</option>
                         </select>
                     </td>
                 </tr> 
@@ -204,9 +194,9 @@ class youtube_admin_menu{
                     	Show video in popup: <span class="pro_subtitle_span">Pro feature!</span>
                     </td>
                     <td class="radio_input">     
-                    	<label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_in_popup_radios" name="youtube_embed_show_popup_radio" <?php checked($youtube_embed_show_popup,'1') ?> value="1" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Yes</label>
-                        <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_in_popup_radios" name="youtube_embed_show_popup_radio" <?php checked($youtube_embed_show_popup,'0') ?> value="0" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">No</label>
-                         <input type="hidden" name="youtube_embed_show_popup" id="youtube_embed_show_popup" value="<?php echo $youtube_embed_show_popup; ?>">
+                    	<label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_in_popup_radios" name="youtube_embed_show_popup_radio" value="1" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">Yes</label>
+                        <label onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><input type="radio" class="youtube_embed_show_in_popup_radios" name="youtube_embed_show_popup_radio" checked="checked" value="0" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">No</label>
+                       
                     </td>
                     
                 </tr> 
@@ -215,7 +205,7 @@ class youtube_admin_menu{
                     	Thumbnail width:<span class="pro_subtitle_span">Pro feature!</span>
                     </td>
                     <td>     
-                    	<input type="text" name="youtube_embed_thumb_popup_width" id="youtube_embed_thumb_popup_width" value="<?php echo $youtube_embed_thumb_popup_width; ?>" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><span class="befor_input_small_desc">(px)</span>
+                    	<input type="text" name="youtube_embed_thumb_popup_width" id="youtube_embed_thumb_popup_width" value="600" onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;"><span class="befor_input_small_desc">(px)</span>
                     </td>
                 </tr> 
                

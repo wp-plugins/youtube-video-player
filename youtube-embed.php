@@ -3,7 +3,7 @@
  * Plugin Name: YouTube Embed WpDevArt
  * Plugin URI: http://wpdevart.com/wordpress-polls-plugin/
  * Description: WordPress YouTube EYouTube Embed plugin is an convenient tool for adding video to your website. Use YouTube Embed plugin to add YouTube videos in posts/pages, widgets.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: wpdevart
  * Author URI:    http://wpdevart.com
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -52,7 +52,6 @@ class youtube_embed{
 	}
 	
 	public function registr_requeried_scripts(){		
-		wp_register_script('angularejs',$this->plugin_url.'admin/scripts/angular.min.js');
 		wp_register_script('youtube_front_end_api_js',$this->plugin_url.'fornt_end/scripts/youtube_embed_front_end.js',array('jquery'));
 		wp_register_script('youtube_api_js',"https://www.youtube.com/iframe_api",array('youtube_front_end_api_js'));
 		wp_register_style('admin_style_youtube_embed',$this->plugin_url.'admin/styles/admin_themplate.css');

@@ -7,7 +7,7 @@ class youtube_embed_front_end{
 	public static $statatic_id_number;
 
 	function __construct($params){
-		$this->statatic_id_number=1;
+		self::$statatic_id_number=1;
 		if(isset($params['plugin_url']))
 			$this->plugin_url=$params['plugin_url'];
 		else
@@ -77,15 +77,7 @@ class youtube_embed_front_end{
 			'disablekb' => $atts['disable_keyboard'],	
 			'enablejsapi' => '1',	
 			'version' => '3',	
-		);
-		 if($atts['playlist']){
-			 $parametrs['list'] = $atts['playlist'];
-			
-		 }else{
-		  if($atts['loop_video'])
-			 	$parametrs['playlist']=$content;
-		 }
-			
+		);			
 		$link_youtube = '//www.youtube.com/embed/'.$content;
 		$link_youtube = add_query_arg( $parametrs, $link_youtube );
 

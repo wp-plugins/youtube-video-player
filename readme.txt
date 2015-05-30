@@ -1,10 +1,10 @@
 === WordPress YouTube Embed ===
 Contributors: wpdevart
 Donate link: http://wpdevart.com/wordpress-youtube-embed-plugin
-Tags:   youtube, youtube playlist, youtube gallery, Youtube channel, youtube plugin, youtube player, youtube widget, you tube, youtube videos, youtube embed, embed youtube, youtube analytics, youtube shortcode, YouTube API, youtube slider, Youtube-video, simple youtube, youtube Video Player, YouTube Live, youtube html5, youtube search, video gallery, smart youtube playback, manage youtube, youtube subscribers, channel, youtube audio, embedplus youtube, YouTube URL, wordpress youtube, youtube subscribe, youtube video feed, youtube post, lightbox youtube, youtube button,  youtube analytics dashboard, lite youtube embeds, youtube subscribe button, youtube thumbs, unlock content youtube, youtube wordpress, youtube posts, youtube post type,  youtube share, bulk youtube posts, random youtube video, youtube sidebar widget, outube status, embed youtube videos, youtube subscription box, Youtube Album, YouTube channels, youtube box, youtube for WordPress, youtube galleries, YouTube Live Stream, youtube views, youtube usage, youtube icon, YouTube Sidebar, lock video youtube, video youtube, youtube embed hide controls, playlists, unlock video youtube, video plugin, embed videos,  view count, YouTube White Label, video widget, import youtube videos, playlist, video, video analytics, embed video, video player, video embed, videos,
+Tags:  youtube, youtube playlist, youtube gallery, Youtube channel, youtube plugin, youtube player, youtube widget, you tube, youtube videos, youtube embed, embed youtube, youtube analytics, youtube shortcode, YouTube API, youtube slider, Youtube-video, simple youtube, youtube Video Player, YouTube Live, youtube html5, youtube search, video gallery, smart youtube playback, manage youtube, youtube subscribers, channel, youtube audio, embedplus youtube, YouTube URL, wordpress youtube, youtube subscribe, youtube video feed, youtube post, lightbox youtube, youtube button,  youtube analytics dashboard, lite youtube embeds, youtube subscribe button, youtube thumbs, unlock content youtube, youtube wordpress, youtube posts, youtube post type,  youtube share, bulk youtube posts, random youtube video, youtube sidebar widget, outube status, embed youtube videos, youtube subscription box, Youtube Album, YouTube channels, youtube box, youtube for WordPress, youtube galleries, YouTube Live Stream, youtube views, youtube usage, youtube icon, YouTube Sidebar, lock video youtube, video youtube, youtube embed hide controls, playlists, unlock video youtube, video plugin, embed videos,  view count, YouTube White Label, video widget, import youtube videos, playlist, video, video analytics, embed video, video player, video embed, videos, yahoo
 Requires at least: 3.4.0
 Tested up to: 4.2
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -54,7 +54,7 @@ You can upgrade WordPress YouTube Embed plugin to [YouTube Embed Pro](http://wpd
 *   **Ability to change YouTube Player Theme**
 *   **Premium support**
 
-### If you found any bug in our WordPress YouTube Embed plugin or have a question contact us at support@wpdevart.com.
+### If you found any bug in our YouTube Embed plugin or have a question contact us at support@wpdevart.com.
 
 Our WordPress YouTube Embed plugin have a good functionality. You can set a lot of parameters for your YouTube player.
 
@@ -65,11 +65,11 @@ We also recommend you to take a look for this useful plugins - [WordPress Mainte
 ### First of all download our WordPress YouTube Embed plugin ZIP file.  
 Installing the **WordPress YouTube Embed plugin**  
 
-1. Log in to your website admin panel.   
+1. First log in to your website admin panel.   
 2. Then go to Plugins page Add New > Upload Plugin.    
-3. Click "Choose file" then select the WordPress YouTube Embed plugin zip file. 
-4. Then click Install and activate the plugin.     
-5. Then, from the left panel of Dashboard, click on the **YouTube Embed** plugin icon to edit options.
+3. Click "Choose file" then select YouTube Embed plugin zip file. 
+4. Click Install and activate the plugin.     
+5. From the left panel of Dashboard, click on the **YouTube Embed** plugin icon to edit options.
 	  
 That's all, now you can insert YouTube videos in your posts, pages, widgets. If any problem occurs, contact us at [support@wpdevart.com](mailto:support@wpdevart.com).
 
@@ -105,7 +105,7 @@ Type the Video Id and Playlist Id. for example if you want to add this playlist 
 
 = How to add YouTube video to widget =
 
-Go to your administration panel, click on the "YouTube Embed" plugin icon from your admin panel and check "Widget defaults" page.
+Go to your administration panel, click on the "YouTube Embed" plugin icon from your left admin panel and check "Widget defaults" page.
 On YouTube Embed Widget default Settings page you can set default options for your videos in widgets.
 After that add YouTube embed widget to your sidebars, then type YouTube video url and that's all.
 
@@ -143,7 +143,11 @@ We also recommend you to take a look for this useful plugins - [WordPress Mainte
 
 = 1.0.3 =
 
-*  JS bug fixed on YouTube Embed.
+*  Bug fixed in JS file on YouTube Embed.
+
+= 1.0.4 =
+
+*  Bug fixed on admin_menu.php line 28 .
 
 == Other Notes ==
 
@@ -177,7 +181,7 @@ type only the video URL(other options are disabled in free version) and click on
 
 ### Adding YouTube videos to widget
 
-On YouTube Embed Widget default Settings page you can set default options for your YouTube videos in widgets.
+On YouTube Embed Widget default Settings page you can set default options for your widgets YouTube videos.
 Then go to your widgets page and add YouTube Embed widget to your sidebar.
 Type the video url(in free version you can't change the default options in widget) and save.
 

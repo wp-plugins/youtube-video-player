@@ -145,8 +145,8 @@ class youtube_embed_widget_default{
                     </td>
                     <td>     
                     	<select  onMouseDown="alert('If you want to use this feature upgrade to Pro Version'); return false;">
-                            <option  value="light"  <?php selected($youtube_embed_widget_theme,'light') ?>>Light</option>
-                            <option value="dark" <?php selected($youtube_embed_widget_theme,'dark') ?>>Dark</option>
+                            <option  value="light">Light</option>
+                            <option value="dark" selected="selected">Dark</option>
                         </select>
                     </td>
                 </tr> 

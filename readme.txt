@@ -88,6 +88,9 @@ On YouTube Embed Widget default Settings page you can set default options for yo
 After you set the options for pages/posts and widgets you just need to click on "Add Youtube Video" shortcode button, 
 type only the video URL(other options are disabled in free version) and click on Insert video. 
  
+Type the Video Id. for example if you want to add this video https://www.youtube.com/watch?v=0XFudmaObLI, 
+then you need to type 0XFudmaObLI in Video Id field.
+ 
 = How to add YouTube video in Pro Version =
 
 Go to your administration panel, click on the "YouTube Embed" plugin icon from your admin panel.

@@ -58,7 +58,7 @@ You can upgrade WordPress YouTube Embed plugin to [YouTube Embed Pro](http://wpd
 
 Our WordPress YouTube Embed plugin have a good functionality. You can set a lot of parameters for your YouTube player.
 
-We also recommend you to take a look for this useful plugins - [WordPress Maintenance mode](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox plugin](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .
+We also recommend you to take a look for this useful plugins - [WordPress Coming Soon plugin](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox plugin](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .
 
 == Installation ==
 
@@ -73,7 +73,7 @@ Installing the **WordPress YouTube Embed plugin**
 	  
 That's all, now you can insert YouTube videos in your posts, pages, widgets. If any problem occurs, contact us at [support@wpdevart.com](mailto:support@wpdevart.com).
 
-We also recommend you to take a look for this useful plugins - [WordPress Maintenance mode](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox plugin](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .
+We also recommend you to take a look for this useful plugins - [WordPress Coming Soon plugin](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox plugin](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .
 
 == Frequently Asked Questions ==
 
@@ -120,7 +120,7 @@ Of course, you just need to enable that function.
 
 Initial Volume is the default volume for your YouTube videos.
 
-We also recommend you to take a look for this useful plugins - [WordPress Maintenance mode](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .
+We also recommend you to take a look for this useful plugins - [WordPress Coming Soon plugin](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .
 
 == Screenshots ==
 
@@ -190,4 +190,4 @@ Type the video url(in free version you can't change the default options in widge
 
 ### If you found any bug in our WordPress YouTube Embed plugin or have a question contact us at support@wpdevart.com.
 
-We also recommend you to take a look for this useful plugins too - [WordPress Maintenance mode](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .
+We also recommend you to take a look for this useful plugins too - [WordPress Coming Soon plugin](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .

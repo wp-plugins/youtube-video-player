@@ -120,6 +120,10 @@ Of course, you just need to enable that function.
 
 Initial Volume is the default volume for your YouTube videos.
 
+= Is it possible completely hide the YouTube Icon =
+
+Dear users, unfortunately YouTube API doesn't allow us to do this.
+
 We also recommend you to take a look for this useful plugins - [WordPress Coming Soon plugin](https://wordpress.org/plugins/coming-soon-page/), [WordPress Facebook like box](http://wpdevart.com/wordpress-facebook-like-box-plugin),  [WordPress Lightbox](https://wordpress.org/plugins/wp-lightbox-2), [WordPress Poll](http://wordpress.org/plugins/polls-widget), [WordPress Countdown](https://wordpress.org/plugins/widget-countdown) .
 
 == Screenshots ==

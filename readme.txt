@@ -4,7 +4,7 @@ Donate link: http://wpdevart.com/wordpress-youtube-embed-plugin
 Tags:  youtube, youtube playlist, youtube gallery, Youtube channel, youtube plugin, youtube player, youtube widget, you tube, youtube videos, youtube embed, embed youtube, youtube analytics, youtube shortcode, YouTube API, youtube slider, Youtube-video, simple youtube, youtube Video Player, YouTube Live, youtube html5, youtube search, video gallery, smart youtube playback, manage youtube, youtube subscribers, channel, youtube audio, embedplus youtube, YouTube URL, wordpress youtube, youtube subscribe, youtube video feed, youtube post, lightbox youtube, youtube button,  youtube analytics dashboard, lite youtube embeds, youtube subscribe button, youtube thumbs, unlock content youtube, youtube wordpress, youtube posts, youtube post type,  youtube share, bulk youtube posts, random youtube video, youtube sidebar widget, outube status, embed youtube videos, youtube subscription box, Youtube Album, YouTube channels, youtube box, youtube for WordPress, youtube galleries, YouTube Live Stream, youtube views, youtube usage, youtube icon, YouTube Sidebar, lock video youtube, video youtube, youtube embed hide controls, playlists, unlock video youtube, video plugin, embed videos,  view count, YouTube White Label, video widget, import youtube videos, playlist, video, video analytics, embed video, video player, video embed, videos
 Requires at least: 3.4.0
 Tested up to: 4.2
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -87,10 +87,10 @@ On YouTube Embed Widget default Settings page you can set default options for yo
 
 After you set the options for pages/posts and widgets you just need to click on "Add Youtube Video" shortcode button, 
 type only the video URL(other options are disabled in free version) and click on Insert video. 
- 
+
 Type the Video Id. for example if you want to add this video https://www.youtube.com/watch?v=0XFudmaObLI, 
 then you need to type 0XFudmaObLI in Video Id field.
- 
+
 = How to add YouTube video in Pro Version =
 
 Go to your administration panel, click on the "YouTube Embed" plugin icon from your admin panel.
@@ -156,6 +156,10 @@ We also recommend you to take a look for this useful plugins - [WordPress Coming
 
 *  Bug fixed on admin_menu.php line 28 .
 
+= 1.0.5 =
+
+*  Added featured plugins .
+
 == Other Notes ==
 
 ### YouTube Embed post/page and widget default options 
@@ -178,10 +182,10 @@ We also recommend you to take a look for this useful plugins - [WordPress Coming
 *   Initial Volume - Set Initial Volume for YouTube videos.
 *   Disable keyboard - Set this option if you want to Enable/Disable keyboard for YouTube videos.
 
-### Adding YouTube videos to posts/pages
+### Adding YouTube videos in posts/pages
 
 Go to your website admin panel, click on the "YouTube Embed" plugin icon from your admin panel left menu.
-On YouTube Embed Page/post default Settings page you can set default options for your YouTube videos in pages and posts.
+On YouTube Embed Page/post default Settings page you can set default options for your YouTube videos that you will add in pages and posts.
 
 After you set the options for pages/posts and widgets you just need to click on "Add Youtube Video" shortcode button, 
 type only the video URL(other options are disabled in free version) and click on Insert video. 

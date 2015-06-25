@@ -3,7 +3,7 @@
 /*############  Youtube Admin Menu Class ################*/
 require_once($this->plugin_path.'admin/content_default.php');
 require_once($this->plugin_path.'admin/widget_default.php');
-
+require_once($this->plugin_path.'admin/featured_plugins.php');
 class youtube_admin_menu{
 	
 	private $menu_name;	
@@ -18,6 +18,8 @@ class youtube_admin_menu{
 	
 	public  $content_default_params;
 	
+	public  $featured_plugins;
+	
 	function __construct($param){
 		$this->menu_name='YouTube Embed';
 		$this->text_parametrs=array(
@@ -26,7 +28,7 @@ class youtube_admin_menu{
 		
 		$this->content_default_params  =new youtube_embed_content_default( array( 'plugin_url'=> $this->plugin_url, 'plugin_path' => $this->plugin_path));
 		$this->wdiget_default_params =new youtube_embed_widget_default( array( 'plugin_url' => $this->plugin_url, 'plugin_path' => $this->plugin_path));
-		
+		$this->featured_plugins		=new youtube_embed_featured_plugins( array( 'plugin_url' => $this->plugin_url, 'plugin_path' => $this->plugin_path));
 		// set plugin url
 		if(isset($param['plugin_url']))
 			$this->plugin_url=$param['plugin_url'];
@@ -343,6 +345,7 @@ class youtube_admin_menu{
 		$manage_page_main = add_menu_page( $this->menu_name, $this->menu_name, 'manage_options', str_replace( ' ', '-', $this->menu_name), array($this->content_default_params, 'controller_page'),$this->plugin_url.'admin/images/icon-youtube.png');
 							add_submenu_page( str_replace( ' ', '-', $this->menu_name), 'Post/Page Defaults', 'Post/Page Defaults', 'manage_options', str_replace( ' ', '-', $this->menu_name), array($this->content_default_params, 'controller_page'));
 		$page_widget	  = add_submenu_page( str_replace( ' ', '-', $this->menu_name), 'Widget Defaults', 'Widget Defaults', 'manage_options', 'youtube-plus-widget-default', array($this->wdiget_default_params, 'controller_page'));
+		$page_widget	  = add_submenu_page( str_replace( ' ', '-', $this->menu_name), 'Featured Plugins', 'Featured Plugins', 'manage_options', 'youtube-plus-featured-plugins', array($this->featured_plugins, 'controller_page'));
 		add_action('admin_print_styles-' .$manage_page_main, array($this,'menu_requeried_scripts'));
 		add_action('admin_print_styles-' .$page_widget, array($this,'menu_requeried_scripts'));	
 	}

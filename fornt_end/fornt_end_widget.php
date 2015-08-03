@@ -45,7 +45,7 @@ class youtube_embed_widget extends WP_Widget {
 			'version' => '3',	
 		);
 		 if($instance['youtube_embed_widget_playlist']){
-			 $parametrs['youtube_embed_widget_list'] = $instance['youtube_embed_widget_playlist'];
+			 $parametrs['list'] = $instance['youtube_embed_widget_playlist'];
 			
 		 }else{
 		  if($instance['youtube_embed_widget_loop_video'])
